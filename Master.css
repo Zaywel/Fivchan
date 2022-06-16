@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(2966567.png);
+    background-size: cover;
+    font-family:sans-serif;
+    height: 100vh;
+}
+
+.caja{
+    border-radius: 40px;
+    width: 400px;
+    height: 420px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    background-color:rgb(136, 128, 138);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja {
+    width: 400px;
+    height: 420px;
+    background-color: rgb(rgb(0, 0, 0));
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 80px 40px;
+}
+
+.caja .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login.box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.caja label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.caja input {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+  
+  .caja input[type="text"] 
+  .caja input[type="password"]
+  {   
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 255);
+    background: transparent;
+    outline: none;
+    height: 20px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .caja input[type="submit"]{
+      border: none;
+      outline: none;
+      height: 40px;
+      background: rgb( rgb(255, 0, 0));
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      border-radius: 40px;
+  }
+  
+  .caja a {
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 24px;
+     color: rgb(0, 0, 0); 
+  }
+
+  .caja a:hover {
+      color: rgb(255, 255, 255);
+  }
+  .caja input[type="submit"]:hover{
+    color: rgb(255, 0, 225);
+  }
